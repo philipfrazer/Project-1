@@ -449,6 +449,7 @@ var whoWinner = function() {
 	$('#stand-me').click(function(evt){
 		evt.preventDefault();
 		document.getElementById("hit-me").disabled = true;
+		document.getElementById("stand-me").disabled = true;
 			for(var i = 0; dealerScore <= 17; i++) {
 				deal(1, dealerHand, 'dealer-hand');
 			}

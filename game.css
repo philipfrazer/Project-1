@@ -14,25 +14,20 @@
 #dealer-hand, #player-hand {
   margin: 10px;
 
-}
-#dealer-hand {
 
 }
 
 #middle {
-  min-height: 40px;
+  min-height: 50px;
   clear: both;
   text-align: center;
   color: #fff;
-  height: 54px;
 }
+
 .clear-fix {
 	clear: both;
 }
 
-#player-hand {
-
-}
 
 .card {
   height: 200px;
