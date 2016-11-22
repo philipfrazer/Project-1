@@ -1,11 +1,38 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title></title>
+	<meta charset="UTF-8">
+	<title>Philly</title>
+	<link rel="stylesheet" href="game.css">
+	<script src="jquery-3.1.1.min.js"></script>
+
 </head>
 <body>
-<script src= "app.js"> </script>
-  <button onclick="deal(1, playerHand)"> HIT!</button>
+	<script type="text/javascript" src="app.js"></script>
+
+ <div id="page">
+	<div id="play-table">
+
+		<div id="dealer-hand">
+
+		</div>
+		<div class="clear-fix"></div>
+		<div id="middle"></div>
+		<div class="clear-fix"></div>
+
+		<div id="player-hand">
+
+		</div>
+		<div class="clear-fix"></div>
+
+	</div>
+</div>
+
+	<button class="newgame" onclick="location.href='index.html';"> New Game </button>
+
+	<button class="hit" id="hit-me"> HIT </button>
+
+	<button id="stand-me"> Stand </button>
 
 </body>
 </html>

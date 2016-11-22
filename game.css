@@ -1,0 +1,53 @@
+
+
+#play-table {
+  background: #006400;
+  padding: 20px;
+  margin: 30px;
+  color: #fff;
+  border-radius: 5px;
+  min-width: 470px;
+}
+
+
+
+#dealer-hand, #player-hand {
+  margin: 10px;
+
+}
+#dealer-hand {
+
+}
+
+#middle {
+  min-height: 40px;
+  clear: both;
+  text-align: center;
+  color: #fff;
+  height: 54px;
+}
+.clear-fix {
+	clear: both;
+}
+
+#player-hand {
+
+}
+
+.card {
+  height: 200px;
+  width: 138px;
+  margin: 20px;
+  border-radius: 5px;
+  float: left;
+}
+.card + .card {
+	margin-left: -120px;
+}
+
+.newgame {
+  margin: 0 20px 0 30px;
+}
+.hit {
+  margin: 0 20px 0 0;
+}
