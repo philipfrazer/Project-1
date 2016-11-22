@@ -1,6 +1,3 @@
-#Black Jack
-[GitHub Repo](https://github.com/philipfrazer/project-1)
-
 #Deployed:
 [GitHub deployed page](https://philipfrazer.github.io/project-1/index.html)
 
